@@ -15,12 +15,16 @@
     "sanity"
   ],
   "dependencies": {
+    "@babel/preset-env": "^7.23.9",
     "@sanity/vision": "^3.27.1",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
     "sanity": "^3.27.1",
-    "styled-components": "^6.0.7"
+    "styled-components": "^6.0.7",
+    "urix": "^0.1.0"
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "^3.0.1",
