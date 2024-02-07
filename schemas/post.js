@@ -45,6 +45,13 @@ export default defineType({
       type: 'datetime',
     }),
     defineField({
+      name: 'featured',
+      title: 'Featured Article',
+      type: 'boolean',
+      description:
+        'Featured articles are shown in the largest portion on the page. Other articles will be along the side.',
+    }),
+    defineField({
       name: 'body',
       title: 'Body',
       type: 'blockContent',
