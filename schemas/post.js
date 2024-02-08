@@ -45,6 +45,18 @@ export default defineType({
       type: 'datetime',
     }),
     defineField({
+      name: 'featured',
+      title: 'Featured Article',
+      type: 'boolean',
+      description: 'Featured articles are shown in the largest portion on the page.',
+    }),
+    defineField({
+      name: 'summary',
+      title: 'Summary',
+      type: 'text',
+      validation: (Rule) => Rule.max(200).warning('Max length is 200 characters'),
+    }),
+    defineField({
       name: 'body',
       title: 'Body',
       type: 'blockContent',
