@@ -63,6 +63,10 @@ export default defineType({
     }),
   ],
 
+  initialValue: {
+    featured: false,
+  },
+
   preview: {
     select: {
       title: 'title',

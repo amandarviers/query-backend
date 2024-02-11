@@ -19,10 +19,5 @@ export default defineType({
         maxLength: 96,
       },
     }),
-    defineField({
-      name: 'description',
-      title: 'Description',
-      type: 'text',
-    }),
   ],
 })
