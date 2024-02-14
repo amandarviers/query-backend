@@ -4,5 +4,6 @@ import post from './post'
 import author from './author'
 import aboutPage from './aboutPage'
 import resourcePage from './resourcePage'
+import inbox from './inbox'
 
-export const schemaTypes = [post, category, aboutPage, resourcePage, author, blockContent]
+export const schemaTypes = [inbox, post, category, aboutPage, resourcePage, author, blockContent]

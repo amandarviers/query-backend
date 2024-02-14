@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "@babel/preset-env": "^7.23.9",
+    "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.27.1",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
@@ -23,6 +24,7 @@
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
     "sanity": "^3.27.1",
+    "sanity-plugin-media": "^2.2.5",
     "styled-components": "^6.0.7",
     "urix": "^0.1.0"
   },
